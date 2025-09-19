@@ -1,25 +1,32 @@
 # Streamlit
 streamlit==1.49.1
 
-# PyTorch CPU-only versions
-torch==2.8.0+cpu
-torchaudio==2.8.0+cpu
-torchvision==0.23.0+cpu
+# PyTorch and related libraries
+torch==2.8.0
+torchvision==0.23.0
+torchaudio==2.8.0
 
-# Machine learning & data processing
-scikit-learn==1.7.2
+# Data manipulation
 pandas==2.3.2
 numpy==2.3.3
 
 # Image processing
-pillow==11.3.0
+Pillow==11.3.0
 
-# NLP embeddings
+# Machine learning & explainability
+scikit-learn==1.7.2
+shap==0.48.0
 sentence-transformers==5.1.0
-
-# Utilities
 tqdm==4.67.1
+
+# Visualization
 matplotlib==3.10.6
 seaborn==0.13.2
-shap==0.48.0
+
+# Utilities for Streamlit
+rich==14.1.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pygments==2.19.2
+
 
