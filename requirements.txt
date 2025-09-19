@@ -42,9 +42,6 @@ seaborn
 shap
 opencv-python-headless
 streamlit
-torch==2.2.0+cpu
-torchvision==0.17.0+cpu
-torchaudio==2.2.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 scikit-learn
 pandas
