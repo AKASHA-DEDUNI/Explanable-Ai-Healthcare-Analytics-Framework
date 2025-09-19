@@ -12,7 +12,7 @@ numpy==2.3.3
 
 # Image processing
 Pillow==11.3.0
-opencv-python==4.8.1.78
+opencv-python-headless==4.8.1.78
 
 # Machine learning & explainability
 scikit-learn==1.7.2
