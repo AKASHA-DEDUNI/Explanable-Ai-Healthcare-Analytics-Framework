@@ -12,6 +12,7 @@ numpy==2.3.3
 
 # Image processing
 Pillow==11.3.0
+opencv-python==4.8.1.78
 
 # Machine learning & explainability
 scikit-learn==1.7.2
@@ -29,18 +30,5 @@ markdown-it-py==4.0.0
 mdurl==0.1.2
 pygments==2.19.2
 
-streamlit==1.49.1
-torch==2.8.0
-torchvision==0.23.0
-torchaudio==2.8.0
-scikit-learn==1.7.2
-pandas==2.3.2
-numpy==2.3.3
-pillow==11.3.0
-sentence-transformers==5.1.0
-tqdm==4.67.1
-matplotlib==3.10.6
-seaborn==0.13.2
-shap==0.48.0
 
 
