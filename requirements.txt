@@ -1,75 +1,25 @@
-streamlit
-torch
-torchvision
-torchaudio
-scikit-learn
-pandas
-numpy
-pillow
-sentence-transformers
-tqdm
-matplotlib
-seaborn
-shap
-streamlit
-torch==2.2.0+cpu
-torchvision==0.17.0+cpu
-torchaudio==2.2.0+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
-scikit-learn
-pandas
-numpy
-pillow
-sentence-transformers
-tqdm
-matplotlib
-seaborn
-shap
-opencv-python-headless
-streamlit
-torch==2.2.0+cpu
-torchvision==0.17.0+cpu
-torchaudio==2.2.0+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
-scikit-learn
-pandas
-numpy
-pillow
-sentence-transformers
-tqdm
-matplotlib
-seaborn
-shap
-opencv-python-headless
-streamlit
---extra-index-url https://download.pytorch.org/whl/cpu
-scikit-learn
-pandas
-numpy
-pillow
-sentence-transformers
-tqdm
-matplotlib
-seaborn
-shap
-opencv-python-headless
-python-dotenv
-streamlit
-torch==2.2.0+cpu
-torchvision==0.17.0+cpu
-torchaudio==2.2.0+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
-scikit-learn
-pandas
-numpy
-pillow
-sentence-transformers
-tqdm
-matplotlib
-seaborn
-shap
-opencv-python-headless
-python-dotenv
+# Streamlit
+streamlit==1.49.1
+
+# PyTorch CPU-only versions
 torch==2.8.0+cpu
-torchvision==0.23.0+cpu
 torchaudio==2.8.0+cpu
+torchvision==0.23.0+cpu
+
+# Machine learning & data processing
+scikit-learn==1.7.2
+pandas==2.3.2
+numpy==2.3.3
+
+# Image processing
+pillow==11.3.0
+
+# NLP embeddings
+sentence-transformers==5.1.0
+
+# Utilities
+tqdm==4.67.1
+matplotlib==3.10.6
+seaborn==0.13.2
+shap==0.48.0
+
